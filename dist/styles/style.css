@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.hangman {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.hangman__container {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.hangman__header, .hangman__content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.hangman__image {
+  width: 100%;
+  height: 90%;
+  overflow: visible;
+}
+.hangman__gallow {
+  position: relative;
+  overflow: visible;
+}
+.hangman__head,
+.hangman__body,
+.hangman__hand-one,
+.hangman__hand-two,
+.hangman__leg-one,
+.hangman__leg-two {
+  overflow: visible;
+}
+
+#head {
+  transform: translate(250%, 136%);
+}
+
+#body {
+  transform: translate(306px, 177%);
+}
+#hand-one {
+  transform: translate(355%, 323%);
+}
+#hand-two {
+  transform: translate(450%, 323%);
+}
+#leg-one {
+  transform: translate(356%, 443%);
+
+}
+#leg-two {
+  transform: translate(447%, 441%);
+}
+.hangman__gallow svg {
+  opacity: 0;
+}
+.hangman__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 400px;
+}
+.hangman__letters-block {
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hangman__word-description {
+  font-size: 1.3em;
+}
+.hangman__letter-button {
+  width: clamp(30px, 5vw, 50px);
+  height: clamp(30px, 5vw, 50px);
+  border: none;
+  background: #694fc7;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hangman__letters-block {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  gap: 8px;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hangman__cubes-row {
+  display: flex;
+  width: 90%;
+  height: 60px;
+  gap: 8px;
+  flex-direction: row;
+  justify-content: center;
+}
+.hangman__cube-item {
+  color: transparent;
+  border-bottom: 2px solid black;
+  flex: 1;
+  max-width: 60px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 2em;
+}
+.hangman__new-game-block {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.4392156863);
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hangman__new-game-block-container {
+  width: 50%;
+  height: 25%;
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+.hangman__new-game-button {
+  border: none;
+  font-size: 16px;
+  margin-top: 10px;
+  background: rgba(26, 116, 41, 0.4392156863);
+  cursor: pointer;
+  height: 40px;
+  padding: 10px;
+}
+
+.opened {
+  color: black;
+}
+
+.used {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.visible {
+  opacity: 1 !important;
+  opacity: 1 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

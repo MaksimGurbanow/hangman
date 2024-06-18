@@ -1,0 +1,55 @@
+[
+  {
+    "word": "ELEPHANT",
+    "description": "A large mammal with tusks and a trunk."
+  },
+  {
+    "word": "COMPUTER",
+    "description": "An electronic device for processing data."
+  },
+  {
+    "word": "SUNSHINE",
+    "description": "Direct sunlight or the warmth it provides."
+  },
+  {
+    "word": "ADVENTURE",
+    "description": "An exciting and unusual experience or activity."
+  },
+  {
+    "word": "BUTTERFLY",
+    "description": "A colorful insect with two pairs of wings."
+  },
+  {
+    "word": "CHOCOLATE",
+    "description": "A sweet treat made from cacao beans."
+  },
+  {
+    "word": "JAZZ",
+    "description": "A genre of music characterized by improvisation."
+  },
+  { "word": "KEYBOARD", "description": "An input device for a computer." },
+  {
+    "word": "MYSTERY",
+    "description": "Something that is difficult to explain or understand."
+  },
+  {
+    "word": "PARADISE",
+    "description": "A place of perfect happiness and bliss."
+  },
+  {
+    "word": "GALAXY",
+    "description": "A system of stars, stellar remnants, interstellar gas, and dark matter."
+  },
+  {
+    "word": "RAINBOW",
+    "description": "A meteorological phenomenon with a spectrum of light."
+  },
+  {
+    "word": "WHISTLE",
+    "description": "A small device that produces a high-pitched sound."
+  },
+  {
+    "word": "LANGUAGE",
+    "description": "A system of communication using words and symbols."
+  }
+]
